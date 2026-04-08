@@ -1,1 +1,1 @@
-惠州话网页汉字注音插件
+A browser plugin to inject vuiziu pinyin into web pages.
