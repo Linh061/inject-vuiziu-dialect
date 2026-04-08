@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "惠州方言注音",
+  "version": "1.0",
+  "description": "自动为网页汉字标注惠州方言读音",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
+      "js": ["dict.js", "content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

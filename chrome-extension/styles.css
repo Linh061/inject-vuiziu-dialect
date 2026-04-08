@@ -1,0 +1,13 @@
+ruby.hz-dialect-ruby {
+  display: inline-ruby !important;
+  position: relative !important;
+  line-height: 1.9 !important;
+  margin: 0 1px !important;
+}
+rt.hz-dialect-pron {
+  color: #0000FF !important;
+  font-size: 0.75em !important; /* 字号放大，更清晰 */
+  text-align: center !important;
+  font-weight: bold !important;
+  ruby-position: over !important;
+}
