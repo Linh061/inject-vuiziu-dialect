@@ -49,9 +49,9 @@
     });
   }
 
-  // 4. 强制扫描百度百科所有正文区域
+  // 4. 强制扫描网页所有正文区域
   function scanPage() {
-    // 直接抓取百科所有正文标签，暴力处理
+    // 直接抓取网页所有正文标签，暴力处理
     const contents = document.querySelectorAll('p, div, span, h1, h2, h3, h4, dd, dt, .content, .lemma-wrap, .main-content');
     contents.forEach(el => processText(el));
     console.log('正文扫描完成');
