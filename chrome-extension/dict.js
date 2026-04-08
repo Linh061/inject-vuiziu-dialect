@@ -5168,11 +5168,11 @@ const CHAR_DICT = {
     "note": ""
   },
   "车": {
-    "initial": "k",
-    "final": "y",
+    "initial": "ʦʰ",
+    "final": "ia",
     "tone": 33,
     "originalTone": 1,
-    "pron": "ky33",
+    "pron": "ʦʰia33",
     "note": "～马炮"
   },
   "邪": {
